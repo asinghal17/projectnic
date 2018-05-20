@@ -1,0 +1,111 @@
+{% extends "skeleton.html" %}
+
+    {% block navbar %}
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div  class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul  class="nav navbar-nav">
+                    <li>
+                        <a href="{{ url_for('chapters') }}"><h5>Chapters</h5></a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('about') }}"><h5>About</h5></a>
+                    </li>
+                    <li>
+                        <a class="btn btn-default btn-sm btn-navbar" href="{{ url_for('donate') }}"><h5>DONATE</h5></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    {% endblock %}
+        
+    {% block header %}
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <p align="left" class="brand-heading">Project Nicaragua is a 501-3(c) not-for-profit organization that is comprised of Physicians, Medical Students, and Undergraduates within the US and Nicaragua.</p>
+                        <p align="left" class="intro-text">Our mission is to advance the right to a healthy and productive life by addressing health related disparities in and alongside Nicaragua's poor.</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </header>
+    {% endblock %}
+
+    {% block section %}
+    <div class="app">
+        <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active blue-link">
+                        <p align="middle">Welcome to ProjectNIC.org!</p>
+                    </div>
+                    {% for m in marquee %}
+                    <div class="item blue-link">
+                        <p align="middle">LATEST UPDATE: {{ m.content }}&nbsp;&nbsp;&nbsp;<a href="{{ m.link }}"><strong>Click Here ></strong></a> </p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="content-section text-center">
+        <div class="container">
+            <div class="row">
+                <div align="middle" class="col-md-12">
+                    <h3 style="color:#5d5d5d">What We Do</h3>
+                    <br>
+                    <p style="color:#5d5d5d">Project Nicaragua partners with organizations, communities, and individuals in both Nicaragua and the United States to advocate and cultivate sustainable medical and health­-related projects in areas of nutrition, socioeconomic development, water quality, and education. We engage communities through ongoing dialogue and collaboration to understand local challenges and create realistic solutions. We are committed to using an evidence­-based approach to develop our projects and measure our progress to best serve the needs of Nicaragua’s underserved. By engaging students at both the undergraduate and graduate level, Project Nicaragua creates and empowers teams of passionate leaders to make a meaningful difference.</p>
+                    <!-- <p><a href="projects" class="btn btn-default btn-lg">Learn More</a></p> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download-section container text-center"></section>
+
+    <!-- Contact Section -->
+    <section id="schedule" class="content-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3 style="color:#5d5d5d">Our University Chapters</h3>
+                    <br>
+                    <p style="color:#5d5d5d">
+                    {% for c in chapters %}
+                        {% if c.status.lower() == "active" %}
+                            {{ c.chapter }}<br>
+                        {% endif %}
+                    {% endfor %}
+                    </p>
+                    <p><a href="{{ url_for('chapters') }}" class="btn btn-default btn-sm">Learn More</a></p>
+                </div>
+                <div class="col-sm-6">
+                    <h3 style="color:#5d5d5d">Our Partners</h3>
+                    <br>
+                    <p style="color:#5d5d5d">
+                        El Antonio Lenin Fonseca Hospital<br>
+                        La Mascota Hospital<br>
+                        Spina Bifida<br>
+                        Asociación Nicaragüense para la Integración Comunitaria<br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endblock %}

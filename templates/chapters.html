@@ -1,0 +1,419 @@
+{% extends "skeleton.html" %}
+
+    {% block navbar %}
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div  class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul  class="nav navbar-nav">
+                    <li>
+                        <a href="{{ url_for('chapters') }}"><h5>Chapters</h5></a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('about') }}"><h5>About</h5></a>
+                    </li>
+                    <li>
+                        <a class="btn btn-default btn-sm btn-navbar" href="{{ url_for('donate') }}"><h5>DONATE</h5></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    {% endblock %}
+        
+    {% block header %}
+    <header class="intro_sub proj">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <p align="left" class="brand-heading">"Bringing quality healthcare to the people of Nicaragua"</p>
+                        <!-- <p align="left" class="intro-text">Our mission is to advance the right to a healthy and productive life by addressing health related disparities in and alongside Nicaragua's poor.</p> -->
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </header>
+
+    <!-- Small Green Border -->
+    <div class="apply"></div>
+    {% endblock %}
+
+    {% block section %}
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div align="middle" class="col-md-12">
+                <h3 style="color:#4A4A4A">Our Chapters</h3>
+                <br>
+                <p style="color:#4A4A4A"></p>
+            </div>
+        </div>
+        <br><br>
+        <!-- CHAPTERS -->
+        {% for c in chapter %}
+        <!-- {{ c.chapter }} -->
+        <div class="col-md-4">
+            <div class="portfolio-item">
+                <a href="" data-toggle="modal" data-target="{{ c.hashtag }}"><img align="middle" class="img-portfolio img-circle" height="165" width="165" src="{{ c.seal }}"></a>
+            </div>
+            <h4 style="color:#4A4A4A">{{ c.chapter }}</h4>
+            <p style="color:#5d5d5d">Status: {{ c.status }}</p>
+            <p><a href="" class="btn btn-default btn-lg" data-toggle="modal" data-target="{{ c.hashtag }}">Learn More</a></p>
+        </div>
+        {% endfor %}
+    </section>
+
+    <!-- UCLA Modal -->
+    <div id="ucla" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content - UCLA -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 style="color:#4A4A4A" class="modal-title">University of California, Los Angeles</h4>
+                </div>
+                <div style="color:#4A4A4A" class="modal-body">
+                    <p style="color:#4A4A4A">In December 2004, medical students Ravi Menghani, Grant Lee, Willie Siu, and undergraduate Daniel Choi travelled to Nicaragua, under the guidance of UCLA Pediatric Neurosurgeon Dr. Jorge Lazareff to investigate the high incidence of spina bifida in the region and barriers to healthcare. The initial team visited El Hospital Antonio Lenin Fonseca and observed a significant lack of medical tools, technology, and supplies. They found a need for intervention and presented their work at the 55th annual AMSA Convention in Washington, D.C. Since then Project Nicaragua was founded and has been making yearly visits to Lenin Fonseca, and more recently to La Mascota (children's hospital), to supply the hospitals with important equipment, such as neurosurgical drills, medical textbooks, computers, gauze, gloves, and more. The chapter also established a Scholarship Program at the UNAN, which will fund medical school for three chosen candidates. The scholarship program is designed to resolve boundaries to quality healthcare through a strategic process called capacity building- a process that will empower locals and build a self sustainable social infrastructure that will take a knowledge based approach to effectively eradicate various barriers to healthcare. The team also donated medical supplies, which were provided by Stryker Corporation and UCLA Renew, to the Antonio Lenin Fonseca Hospital in Managua, Nicaragua, where they launched an epidemiology research project, which allowed them to survey 115 patients in the Emergency Room. The team maintained their productivity by continuing their research on Spina Bifida and organizing a health fair at Nandaime, Nicaragua.</p>
+                    <p style="color:#4A4A4A">Contact: <a href="mailto:"><font color="#21A54A"><strong>Email</strong></font></a> <br> <a href="{{ url_for('donate') }}"><strong>Donate</strong></a> to the UCLA Chapter.</p>
+                    <div class="tabbable">
+                        <ul class="nav nav-tabs nav-justified">
+                            <li class="active"><a href="#ucla1" data-toggle="tab"><h5 style="color:#4A4A4A" class="modal-title">Chapter Leaders</h5></a></li>
+                            <!-- <li><a href="#ucla2" data-toggle="tab"><h5 style="color:#4A4A4A" class="modal-title">RISHI Perspective</h5></a></li> -->
+                            <!-- <li><a href="#ucla3" data-toggle="tab"><h5 style="color:#4A4A4A" class="modal-title">Connect</h5></a></li> -->
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="ucla1">
+                                <div class="container-fluid text-center">
+                                    <br><br>
+                                    {% for e in uclae %}
+                                    <div class="col-md-4">
+                                        <div class="portfolio-item">
+                                            <img align="middle" class="img-portfolio img-circle" height="150" width="150" src="{{ e.photo }}">
+                                        </div>
+                                        <h5 style="color:#5d5d5d">{{ e.name }}</h5>
+                                        <p style="color:#5d5d5d">{{ e.position }}
+                                        <br>
+                                        <a href="mailto:{{ e.email }}"><font color="#21A54A">{{ e.email }}</font></a></p>
+                                    </div> 
+                                    {% endfor %}
+                                </div>
+                            </div>
+                            <!-- Item 1 End -->
+<!--                             <div class="tab-pane" id="ucla2">
+                                <div class="container-fluid text-center">
+                                    <br><br>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <a class="m-profile" data-width="100%" href="https://medium.com/@UCLA_ProjectRISHI">UCLA Project RISHI</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- Item 2 End -->
+<!--                             <div class="tab-pane" id="ucla3">
+                                <div class="container-fluid text-center">
+                                    <br><br>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprojectrishiucla&tabs=timeline%2Cevents%2Cmessages&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  -->
+                            <!-- Item 3 End -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal Body End -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- UCLA Modal End -->
+
+
+    <!-- UC Berkeley Modal -->
+    <div id="cal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content - UCLA -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 style="color:#4A4A4A" class="modal-title">University of California, Berkeley</h4>
+                </div>
+                <div style="color:#4A4A4A" class="modal-body">
+                    <p style="color:#4A4A4A">The University of California, Berkeley chapter, the fourth Project Nicaragua chapter, was founded by Devin Erbay under the leadership of Executive Board members, Daniela Somarriba, Samuel Choi, and Iman Zahedi in 2012.</p>
+                    <p style="color:#4A4A4A">Contact: <a href="mailto:"><font color="#21A54A"><strong>Email</strong></font></a> <br> <a href="{{ url_for('donate') }}"><strong>Donate</strong></a> to the UC Berkeley Chapter.</p>
+                    <div class="tabbable">
+                        <ul class="nav nav-tabs nav-justified">
+                            <li class="active"><a href="#cal1" data-toggle="tab"><h5 style="color:#4A4A4A" class="modal-title">Chapter Leaders</h5></a></li>
+<!--                             <li><a href="#cal2" data-toggle="tab"><h5 style="color:#4A4A4A" class="modal-title">RISHI Perspective</h5></a></li>
+                            <li><a href="#cal3" data-toggle="tab"><h5 style="color:#4A4A4A" class="modal-title">Connect</h5></a></li> -->
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="cal1">
+                                <div class="container-fluid text-center">
+                                    <br><br>
+                                    {% for e in ucbe %}
+                                    <div class="col-md-4">
+                                        <div class="portfolio-item">
+                                            <img align="middle" class="img-portfolio img-circle" height="150" width="150" src="{{ e.photo }}">
+                                        </div>
+                                        <h5 style="color:#5d5d5d">{{ e.name }}</h5>
+                                        <p style="color:#5d5d5d">{{ e.position }}
+                                        <br>
+                                        <a href="mailto:{{ e.email }}"><font color="#21A54A">{{ e.email }}</font></a></p>
+                                    </div> 
+                                    {% endfor %}
+                                </div>
+
+                            </div>
+                            <!-- Item 1 End -->
+<!--                             <div class="tab-pane" id="cal2">
+                                <div class="container-fluid text-center">
+                                    <br><br>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <a class="m-profile" data-width="100%" href="https://medium.com/@ucberkeleyrishi">UC Berkeley Project RISHI</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- Item 2 End -->
+<!--                             <div class="tab-pane" id="cal3">
+                                <div class="container-fluid text-center">
+                                    <br><br>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fucbprojectrishi&tabs=timeline%2Cevents%2Cmessages&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  -->
+                            <!-- Item 3 End -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal Body End -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- UC Berkeley Modal End -->
+
+    <!-- Vanderbilt Modal -->
+    <div id="vu" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content - Vanderbilt -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 style="color:#4A4A4A" class="modal-title">Vanderbilt University</h4>
+                </div>
+                <div style="color:#4A4A4A" class="modal-body">
+                    <p style="color:#4A4A4A">The Vanderbilt chapter of Project Nicaragua was founded in the fall of 2012 by Vanderbilt student Rebecca Wang during her sophomore year. Working closely with two faculty advisers, Drs. Neerav Desai and Lindy Fenlason, the Vanderbilt chapter collaborated with CENAO, the National Eye Hospital, and La Mascota Children's Hospital in Managua, Nicaragua. For their inaugural trip in May 2013, the Vanderbilt chapter donated over 1,000 pairs of used eyeglasses collected over the year to CENAO along with hundreds of dental and medical supplies to La Mascota. The Vanderbilt chapter also worked with the non-profit organization, FNE, based in Chacraseca, a small rural community outside of Leon, Nicaragua. They raised money to build a house for a family in need and also taught lessons on nutrition, exercise, dental hygiene, and sex education. Ever since the first trip in May 2013, the Vanderbilt chapter has continued to expand and work closely with the National Eye Hospital and FNE in Leon. In December 2014, the Vanderbilt chapter implemented an art therapy project for special needs students in Chichigalpa with FNE. In the spring of 2015, the Vanderbilt chapter started Skype tutoring lessons with students taking English classes in Chacraseca. The Vanderbilt chapter hopes to expand their efforts in both Managua and Leon through their annual trips to Nicaragua as well through fundraising, collecting supplies, and tutoring throughout the year.</p>
+                    <p style="color:#4A4A4A">Contact: <a href="mailto:"><font color="#21A54A"><strong>Email</strong></font></a> <br> <a href="{{ url_for('donate') }}"><strong>Donate</strong></a> to the Vanderbilt Chapter.</p>
+                    <div class="tabbable">
+                        <ul class="nav nav-tabs nav-justified">
+                            <li class="active"><a href="#vu1" data-toggle="tab"><h5 style="color:#4A4A4A" class="modal-title">Chapter Leaders</h5></a></li>
+<!--                             <li><a href="#cal2" data-toggle="tab"><h5 style="color:#4A4A4A" class="modal-title">RISHI Perspective</h5></a></li>
+                            <li><a href="#cal3" data-toggle="tab"><h5 style="color:#4A4A4A" class="modal-title">Connect</h5></a></li> -->
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="vu1">
+                                <div class="container-fluid text-center">
+                                    <br><br>
+                                    {% for e in ucbe %}
+                                    <div class="col-md-4">
+                                        <div class="portfolio-item">
+                                            <img align="middle" class="img-portfolio img-circle" height="150" width="150" src="{{ e.photo }}">
+                                        </div>
+                                        <h5 style="color:#5d5d5d">{{ e.name }}</h5>
+                                        <p style="color:#5d5d5d">{{ e.position }}
+                                        <br>
+                                        <a href="mailto:{{ e.email }}"><font color="#21A54A">{{ e.email }}</font></a></p>
+                                    </div> 
+                                    {% endfor %}
+                                </div>
+
+                            </div>
+                            <!-- Item 1 End -->
+<!--                             <div class="tab-pane" id="cal2">
+                                <div class="container-fluid text-center">
+                                    <br><br>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <a class="m-profile" data-width="100%" href="https://medium.com/@ucberkeleyrishi">UC Berkeley Project RISHI</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- Item 2 End -->
+<!--                             <div class="tab-pane" id="cal3">
+                                <div class="container-fluid text-center">
+                                    <br><br>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fucbprojectrishi&tabs=timeline%2Cevents%2Cmessages&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  -->
+                            <!-- Item 3 End -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal Body End -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vanderbilt Modal End -->
+
+    <!-- UC San Diego Modal -->
+    <div id="ucsd" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content  -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 style="color:#4A4A4A" class="modal-title">University of California, San Diego</h4>
+                </div>
+                <div style="color:#4A4A4A" class="modal-body">
+                    <p style="color:#4A4A4A">The UCSD chapter of Project Nicaragua was founded about a year after the UCLA chapter when Assistant Executive Director Stanley Park in January 2006. Under his direction, a team of three students traveled to Managua, Nicaragua in September 2006 to help create a relationship with La Mascota Pediatric Hospital, conduct research on spina bifida, and donate medical supplies that had been provided by our Chairman of the Board and Executive Advisor, Dr. Jorge Lazareff, to El Lenin Fonseca Hospital. Since its founding, the chapter has established connections with the International Neurosurgical Children’s Association and AMOS Health and Hope. Project Nicaragua’s connection with AMOS Health and Hope has been used to conduct research about the prevalent rate of parasites in school aged children in San Jose de Los Remates, Boaco, Nicaragua and build clinics in El Bejuco. In addition to receiving ten thousand dollars from the Strauss Foundation, the UCSD chapter has been the 2008-2009 recipients of the Chapin Cole and Melissa Higgins Lifelong Service Award, 2009-2010 Alumni Engagement Award, and 2011-2012 UCSD Grants for Change.</p>
+                    <p style="color:#4A4A4A">Contact: <a href="mailto:"><font color="#21A54A"><strong>Email</strong></font></a> <br> <a href="{{ url_for('donate') }}"><strong>Donate</strong></a> to the UC San Diego Chapter.</p>
+                    <div class="tabbable">
+                        <ul class="nav nav-tabs nav-justified">
+                            <li class="active"><a href="#ucsd1" data-toggle="tab"><h5 style="color:#4A4A4A" class="modal-title">Chapter Leaders</h5></a></li>
+<!--                             <li><a href="#ucsd2" data-toggle="tab"><h5 style="color:#4A4A4A" class="modal-title">RISHI Perspective</h5></a></li>
+                            <li><a href="#ucsd3" data-toggle="tab"><h5 style="color:#4A4A4A" class="modal-title">Connect</h5></a></li> -->
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="ucsd1">
+                                <div class="container-fluid text-center">
+                                    <br><br>
+                                    {% for e in ucsde %}
+                                    <div class="col-md-4">
+                                        <div class="portfolio-item">
+                                            <img align="middle" class="img-portfolio img-circle" height="150" width="150" src="{{ e.photo }}">
+                                        </div>
+                                        <h5 style="color:#5d5d5d">{{ e.name }}</h5>
+                                        <p style="color:#5d5d5d">{{ e.position }}
+                                        <br>
+                                        <a href="mailto:{{ e.email }}"><font color="#21A54A">{{ e.email }}</font></a></p>
+                                    </div> 
+                                    {% endfor %}                              
+                                </div>
+                            </div>
+                            <!-- Item 1 End -->
+<!--                             <div class="tab-pane" id="ucsd2">
+                                <div class="container-fluid text-center">
+                                    <br><br>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <a class="m-profile" data-width="100%"href="https://medium.com/@ucsdprojectrishi">UCSD Project RISHI</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- Item 2 End -->
+<!--                             <div class="tab-pane" id="ucsd3">
+                                <div class="container-fluid text-center">
+                                    <br><br>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FprojectrishiUCSD&tabs=timeline%2Cevents%2Cmessages&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  -->
+                            <!-- Item 3 End -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal Body End -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- UC San Diego Modal End -->
+
+    <!-- OSU Modal -->
+    <div id="osu" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content  -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 style="color:#4A4A4A" class="modal-title">Ohio State University</h4>
+                </div>
+                <div style="color:#4A4A4A" class="modal-body">
+                    <p style="color:#4A4A4A">Project Nicaragua at The Ohio State University was established in 2008 and is currently advised by Dr. Thomas Mauger, Chairman of OSU's Department of Ophthalmology, and Dr. Rebecca Kuennen of The Ohio State University Havener Eye Institute. Project Nicaragua at OSU is involved in the medical aspects of Nicaraguan healthcare and addresses social and economic factors that can affect health. They work with community partners to address root causes of health disparity in Nicaragua. The OSU team’s work started with the CENAO Collaboration. CENAO is Nicaragua’s National Eye Hospital, the only public and teaching ophthalmology hospital in the country; Project Nicaragua at OSU collected medical equipment and supplies for the hospital. Their main project is the Rancho Grande Initiative which includes a collaboration with Amor en Acción, a non-profit organization based in Nicaragua, to assist in development work in the mountainous municipality of Rancho Grande. The OSU team works on several community-based initiatives in the region to improve educational opportunities, establish means for sustainable economic empowerment, and increase access to healthcare and nutrition through research on nutrition security. Since its establishment, the chapter has sent a team to Nicaragua roughly once a year. They have also been accepted for several Clinton Global Initiative conferences, which allows them to learn more about how they can make an impact in Nicaragua.</p>
+                    <p style="color:#4A4A4A">Contact: <a href="mailto:projectnicosu@gmail.com"><font color="#21A54A"><strong>projectnicosu@gmail.com</strong></font></a> <br> <a href="{{ url_for('donate') }}"><strong>Donate</strong></a> to the OSU Chapter.</p>
+                    <div class="tabbable">
+                        <ul class="nav nav-tabs nav-justified">
+                            <li class="active"><a href="#osu1" data-toggle="tab"><h5 style="color:#4A4A4A" class="modal-title">Chapter Leaders</h5></a></li>
+<!--                             <li><a href="#ucsd2" data-toggle="tab"><h5 style="color:#4A4A4A" class="modal-title">RISHI Perspective</h5></a></li>
+                            <li><a href="#ucsd3" data-toggle="tab"><h5 style="color:#4A4A4A" class="modal-title">Connect</h5></a></li> -->
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="osu1">
+                                <div class="container-fluid text-center">
+                                    <br><br>
+                                    {% for e in osue %}
+                                    <div class="col-md-4">
+                                        <div class="portfolio-item">
+                                            <img align="middle" class="img-portfolio img-circle" height="150" width="150" src="{{ e.photo }}">
+                                        </div>
+                                        <h5 style="color:#5d5d5d">{{ e.name }}</h5>
+                                        <p style="color:#5d5d5d">{{ e.position }}
+                                        <br>
+                                        <a href="mailto:{{ e.email }}"><font color="#21A54A">{{ e.email }}</font></a></p>
+                                    </div> 
+                                    {% endfor %}                              
+                                </div>
+                            </div>
+                            <!-- Item 1 End -->
+<!--                             <div class="tab-pane" id="ucsd2">
+                                <div class="container-fluid text-center">
+                                    <br><br>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <a class="m-profile" data-width="100%"href="https://medium.com/@ucsdprojectrishi">UCSD Project RISHI</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- Item 2 End -->
+<!--                             <div class="tab-pane" id="ucsd3">
+                                <div class="container-fluid text-center">
+                                    <br><br>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FprojectrishiUCSD&tabs=timeline%2Cevents%2Cmessages&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  -->
+                            <!-- Item 3 End -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal Body End -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- OSU Modal End -->
+
+    {% endblock %}

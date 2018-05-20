@@ -1,0 +1,113 @@
+{% extends "skeleton.html" %}
+
+    {% block navbar %}
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div  class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul  class="nav navbar-nav">
+                    <li>
+                        <a href="{{ url_for('chapters') }}"><h5>Chapters</h5></a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('about') }}"><h5>About</h5></a>
+                    </li>
+                    <li>
+                        <a class="btn btn-default btn-sm btn-navbar" href="{{ url_for('donate') }}"><h5>DONATE</h5></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    {% endblock %}
+        
+    {% block header %}
+    <header class="intro_sub proj">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <p align="left" class="brand-heading">"Bringing quality healthcare to the people of Nicaragua"</p>
+                        <!-- <p align="left" class="intro-text">Our mission is to advance the right to a healthy and productive life by addressing health related disparities in and alongside Nicaragua's poor.</p> -->
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </header>
+
+    <!-- Small Green Border -->
+    <div class="apply"></div>
+    {% endblock %}
+
+    {% block section %}
+    <section class="container content-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 style="color:#5d5d5d">DONATE to Project Nicaragua </h3><br>
+                    <!-- PayPal Logo --><img src="https://www.paypalobjects.com/webstatic/mktg/logo/bdg_payments_by_pp_2line.png" height="35" width="120"alt="PayPal Acceptance Mark"></a></td></tr></table><!-- PayPal Logo -->
+                    <br><br>
+                </div>
+            </div>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" role="form">
+                <input type="hidden" name="cmd" value="_donations">
+                <input type="hidden" name="business" value="projectnic@gmail.com ">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="form-group">
+                            <!-- <label for="firstname">First Name</label> -->
+                            <input type="text" name="first_name" class="form-control" id="firstname" placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="form-group">
+                            <!-- <label for="lastname">Last Name</label> -->
+                            <input type="text" name="last_name" class="form-control" id="lastname" placeholder="Last Name">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="form-group">
+                            <!-- <label for="email"></label> -->
+                            <input type="email" name="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="form-group">
+                            <!-- <label for="pwd">Password:</label> -->
+                            <input type="text" name="amount" class="form-control" id="pwd" placeholder="Amount ($)">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="form-group">
+                            <select class="form-control" name="item_name">
+                                <option value="General Donation">General Donation</option>
+                            {% for c in chapters %}    
+                                <option value="{{ c.chapter }}">{{ c.chapter }}</option>
+                            {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="form-group">
+                            <select class="form-control" name="item_number">
+                                <option value="All Projects">All Projects</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-blue btn-lg">Submit Payment</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <hr>
+    </section>
+    {% endblock %}

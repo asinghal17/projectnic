@@ -1,0 +1,995 @@
+2017-08-20 11:53:34,382, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-08-20 11:53:45,981, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 11:53:46,698, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 11:53:46] "GET /chapters HTTP/1.1" 200 -
+2017-08-20 11:53:46,768, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 11:53:46] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2017-08-20 11:53:46,772, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 11:53:46] "GET /static/css/style.css HTTP/1.1" 304 -
+2017-08-20 11:53:46,778, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 11:53:46] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+2017-08-20 11:53:46,803, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 11:53:46] "GET /static/js/jquery.js HTTP/1.1" 304 -
+2017-08-20 11:53:46,815, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 11:53:46] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2017-08-20 11:53:46,974, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 11:53:46] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+2017-08-20 11:55:28,471, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-08-20 11:55:32,045, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 11:55:34,106, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 11:55:34] "GET /chapters HTTP/1.1" 200 -
+2017-08-20 11:57:37,475, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-08-20 11:57:40,578, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 11:57:41,207, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 11:57:41] "GET /chapters HTTP/1.1" 200 -
+2017-08-20 12:23:26,714, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-08-20 12:23:31,245, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 12:23:31,726, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 12:23:31] "GET /chapters HTTP/1.1" 500 -
+2017-08-20 12:28:11,101, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-08-20 12:28:20,621, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 12:28:21,900, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 12:28:22,739, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 12:28:22] "GET /chapters HTTP/1.1" 500 -
+2017-08-20 12:29:05,288, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-08-20 12:29:09,011, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 12:29:10,220, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 12:29:11,070, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 12:29:11] "GET /chapters HTTP/1.1" 500 -
+2017-08-20 12:30:00,262, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 12:30:01,840, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 12:30:02,890, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 12:30:02] "GET /chapters HTTP/1.1" 500 -
+2017-08-20 12:30:36,893, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-08-20 12:30:40,765, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 12:30:42,001, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 12:30:43,075, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 12:30:43] "GET /chapters HTTP/1.1" 500 -
+2017-08-20 12:43:02,521, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-08-20 12:43:15,601, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 12:43:15,903, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 12:43:15] "GET / HTTP/1.1" 200 -
+2017-08-20 12:43:15,943, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 12:43:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2017-08-20 12:43:15,946, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 12:43:15] "GET /static/css/style.css HTTP/1.1" 304 -
+2017-08-20 12:43:15,950, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 12:43:15] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+2017-08-20 12:43:15,958, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 12:43:15] "GET /static/js/jquery.js HTTP/1.1" 304 -
+2017-08-20 12:43:15,988, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 12:43:15] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2017-08-20 12:43:16,014, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 12:43:16] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+2017-08-20 12:43:24,151, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 12:43:25,488, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 12:43:26,347, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 12:43:26] "GET /chapters HTTP/1.1" 500 -
+2017-08-20 12:45:59,878, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2017-08-20 12:46:04,699, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 12:46:05,880, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 12:46:06,928, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 12:46:06] "GET /chapters HTTP/1.1" 200 -
+2017-08-20 12:47:47,143, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 12:47:48,096, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2017-08-20 12:47:49,180, log_level=INFO, 127.0.0.1 - - [20/Aug/2017 12:47:49] "GET /chapters HTTP/1.1" 200 -
+2018-05-05 16:56:18,378, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-05 16:57:13,333, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 16:57:14,112, log_level=INFO, 127.0.0.1 - - [05/May/2018 16:57:14] "GET / HTTP/1.1" 200 -
+2018-05-05 16:57:14,180, log_level=INFO, 127.0.0.1 - - [05/May/2018 16:57:14] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2018-05-05 16:57:14,184, log_level=INFO, 127.0.0.1 - - [05/May/2018 16:57:14] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 16:57:14,188, log_level=INFO, 127.0.0.1 - - [05/May/2018 16:57:14] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2018-05-05 16:57:14,204, log_level=INFO, 127.0.0.1 - - [05/May/2018 16:57:14] "GET /static/js/jquery.js HTTP/1.1" 200 -
+2018-05-05 16:57:14,215, log_level=INFO, 127.0.0.1 - - [05/May/2018 16:57:14] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-05-05 16:57:14,223, log_level=INFO, 127.0.0.1 - - [05/May/2018 16:57:14] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+2018-05-05 16:57:48,402, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 16:57:50,817, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 16:57:52,091, log_level=INFO, 127.0.0.1 - - [05/May/2018 16:57:52] "GET /chapters HTTP/1.1" 200 -
+2018-05-05 17:39:36,858, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 17:39:37,961, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 17:39:38,717, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:39:38] "GET /chapters HTTP/1.1" 200 -
+2018-05-05 17:39:38,817, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:39:38] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2018-05-05 17:39:38,819, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:39:38] "GET /static/css/style.css HTTP/1.1" 304 -
+2018-05-05 17:39:38,821, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:39:38] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+2018-05-05 17:39:38,825, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:39:38] "GET /static/js/jquery.js HTTP/1.1" 304 -
+2018-05-05 17:39:38,831, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:39:38] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2018-05-05 17:39:38,836, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:39:38] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+2018-05-05 17:49:21,670, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:49:21] "GET /favicon.ico HTTP/1.1" 404 -
+2018-05-05 17:53:42,101, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-05 17:53:45,022, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 17:53:47,711, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 17:53:48,527, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:53:48] "GET /chapters HTTP/1.1" 200 -
+2018-05-05 17:53:48,602, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:53:48] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2018-05-05 17:53:48,607, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:53:48] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 17:53:48,612, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:53:48] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+2018-05-05 17:53:48,621, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:53:48] "GET /static/js/jquery.js HTTP/1.1" 304 -
+2018-05-05 17:53:48,626, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:53:48] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2018-05-05 17:53:48,634, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:53:48] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+2018-05-05 17:54:00,539, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 17:54:02,459, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 17:54:04,852, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:54:04] "GET /chapters HTTP/1.1" 200 -
+2018-05-05 17:54:04,912, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:54:04] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2018-05-05 17:54:04,916, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:54:04] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 17:54:04,921, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:54:04] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2018-05-05 17:54:04,935, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:54:04] "GET /static/js/jquery.js HTTP/1.1" 200 -
+2018-05-05 17:54:04,941, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:54:04] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-05-05 17:54:04,946, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:54:04] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+2018-05-05 17:54:45,863, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 17:54:46,119, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:54:46] "GET / HTTP/1.1" 200 -
+2018-05-05 17:56:54,617, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-05 17:57:14,297, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 17:57:14,588, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:57:14] "GET / HTTP/1.1" 200 -
+2018-05-05 17:57:14,648, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:57:14] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2018-05-05 17:57:14,652, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:57:14] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 17:57:14,656, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:57:14] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2018-05-05 17:57:14,670, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:57:14] "GET /static/js/jquery.js HTTP/1.1" 200 -
+2018-05-05 17:57:14,677, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:57:14] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-05-05 17:57:14,682, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:57:14] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+2018-05-05 17:57:14,775, log_level=INFO, 127.0.0.1 - - [05/May/2018 17:57:14] "GET /static/css/%7B%7B%20url_for('static',%20filename='img/banner/banner_home.png')%20%7D%7D HTTP/1.1" 404 -
+2018-05-05 18:00:16,722, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-05 18:00:27,586, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:00:27,889, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:00:27] "GET / HTTP/1.1" 200 -
+2018-05-05 18:00:27,958, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:00:27] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2018-05-05 18:00:27,963, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:00:27] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 18:00:27,969, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:00:27] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2018-05-05 18:00:27,989, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:00:27] "GET /static/js/jquery.js HTTP/1.1" 200 -
+2018-05-05 18:00:27,998, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:00:27] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-05-05 18:00:28,007, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:00:28] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+2018-05-05 18:00:52,878, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:00:54,312, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:00:55,026, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:00:55] "GET /chapters HTTP/1.1" 200 -
+2018-05-05 18:03:23,477, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-05 18:03:39,382, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:03:39,824, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:03:39] "GET / HTTP/1.1" 200 -
+2018-05-05 18:03:39,879, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:03:39] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2018-05-05 18:03:39,884, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:03:39] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 18:03:39,888, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:03:39] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2018-05-05 18:03:39,902, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:03:39] "GET /static/js/jquery.js HTTP/1.1" 200 -
+2018-05-05 18:03:39,909, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:03:39] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-05-05 18:03:39,914, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:03:39] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+2018-05-05 18:08:52,021, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-05 18:08:57,375, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:08:57,993, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:08:57] "GET / HTTP/1.1" 200 -
+2018-05-05 18:08:58,022, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:08:58] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2018-05-05 18:08:58,025, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:08:58] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 18:08:58,029, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:08:58] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+2018-05-05 18:08:58,031, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:08:58] "GET /static/js/jquery.js HTTP/1.1" 304 -
+2018-05-05 18:08:58,042, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:08:58] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2018-05-05 18:08:58,051, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:08:58] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+2018-05-05 18:08:58,084, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:08:58] "GET /static/css/img/banner/banner_home.png HTTP/1.1" 404 -
+2018-05-05 18:09:20,589, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-05 18:09:37,445, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:09:37,744, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:09:37] "GET / HTTP/1.1" 200 -
+2018-05-05 18:09:37,807, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:09:37] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2018-05-05 18:09:37,811, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:09:37] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 18:09:37,816, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:09:37] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2018-05-05 18:09:37,830, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:09:37] "GET /static/js/jquery.js HTTP/1.1" 200 -
+2018-05-05 18:09:37,837, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:09:37] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-05-05 18:09:37,841, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:09:37] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+2018-05-05 18:09:37,950, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:09:37] "GET /static/css/img/banner/banner_home.png HTTP/1.1" 404 -
+2018-05-05 18:10:12,134, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:10:12] "GET /static/css/img/banner/banner_home.png HTTP/1.1" 404 -
+2018-05-05 18:10:12,373, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:10:12] "GET /static/css/img/banner/banner_home.png HTTP/1.1" 404 -
+2018-05-05 18:10:13,165, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:10:13] "GET /static/css/img/banner/banner_home.png HTTP/1.1" 404 -
+2018-05-05 18:10:28,017, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:10:28] "GET /static/css/.img/banner/banner_home.png HTTP/1.1" 404 -
+2018-05-05 18:10:28,343, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:10:28] "GET /static/css/..img/banner/banner_home.png HTTP/1.1" 404 -
+2018-05-05 18:10:29,943, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:10:29] "GET /static/img/banner/banner_home.png HTTP/1.1" 200 -
+2018-05-05 18:12:13,650, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:12:13,971, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:12:13] "GET / HTTP/1.1" 200 -
+2018-05-05 18:12:14,033, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:12:14] "GET /static/css/img/banner/banner_home.png HTTP/1.1" 404 -
+2018-05-05 18:12:23,026, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:12:23,505, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:12:23] "GET / HTTP/1.1" 200 -
+2018-05-05 18:12:23,566, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:12:23] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2018-05-05 18:12:23,570, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:12:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 18:12:23,575, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:12:23] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2018-05-05 18:12:23,589, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:12:23] "GET /static/js/jquery.js HTTP/1.1" 200 -
+2018-05-05 18:12:23,597, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:12:23] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-05-05 18:12:23,601, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:12:23] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+2018-05-05 18:12:24,217, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:12:24] "GET /static/css/..img/banner/banner_section.png HTTP/1.1" 404 -
+2018-05-05 18:12:24,219, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:12:24] "GET /static/img/banner/banner_home.png HTTP/1.1" 200 -
+2018-05-05 18:12:48,134, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-05 18:12:59,530, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:12:59,882, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:12:59] "GET / HTTP/1.1" 200 -
+2018-05-05 18:12:59,938, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:12:59] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2018-05-05 18:12:59,943, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:12:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 18:12:59,947, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:12:59] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2018-05-05 18:12:59,962, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:12:59] "GET /static/js/jquery.js HTTP/1.1" 200 -
+2018-05-05 18:12:59,968, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:12:59] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-05-05 18:12:59,972, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:12:59] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+2018-05-05 18:13:00,164, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:13:00] "GET /static/css/..img/banner/banner_section.png HTTP/1.1" 404 -
+2018-05-05 18:13:00,166, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:13:00] "GET /static/img/banner/banner_home.png HTTP/1.1" 200 -
+2018-05-05 18:14:06,088, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:14:06] "GET /static/img/banner/banner_section.png HTTP/1.1" 200 -
+2018-05-05 18:15:02,212, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:15:02,928, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:15:02] "GET / HTTP/1.1" 200 -
+2018-05-05 18:15:03,040, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:15:03] "GET /static/css/..img/banner/banner_section.png HTTP/1.1" 404 -
+2018-05-05 18:15:13,477, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:15:13,728, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:15:13] "GET / HTTP/1.1" 200 -
+2018-05-05 18:15:13,783, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:15:13] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2018-05-05 18:15:13,789, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:15:13] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 18:15:13,795, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:15:13] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2018-05-05 18:15:13,812, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:15:13] "GET /static/js/jquery.js HTTP/1.1" 200 -
+2018-05-05 18:15:13,819, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:15:13] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-05-05 18:15:13,824, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:15:13] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+2018-05-05 18:15:14,114, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:15:14] "GET /static/img/banner/banner_section.png HTTP/1.1" 200 -
+2018-05-05 18:15:14,122, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:15:14] "GET /static/img/banner/banner_home.png HTTP/1.1" 200 -
+2018-05-05 18:15:22,176, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:15:23,919, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:15:24,983, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:15:24] "GET /chapters HTTP/1.1" 200 -
+2018-05-05 18:18:15,686, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:18:15,911, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:18:15] "GET / HTTP/1.1" 200 -
+2018-05-05 18:18:35,096, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:18:35,342, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:18:35] "GET / HTTP/1.1" 200 -
+2018-05-05 18:18:35,398, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:18:35] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2018-05-05 18:18:35,403, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:18:35] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 18:18:35,408, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:18:35] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2018-05-05 18:18:35,426, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:18:35] "GET /static/js/jquery.js HTTP/1.1" 200 -
+2018-05-05 18:18:35,435, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:18:35] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-05-05 18:18:35,442, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:18:35] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+2018-05-05 18:18:35,543, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:18:35] "GET /static/img/banner/banner_section.png HTTP/1.1" 200 -
+2018-05-05 18:18:35,554, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:18:35] "GET /static/img/banner/banner_home.png HTTP/1.1" 200 -
+2018-05-05 18:18:56,404, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:18:57,579, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:18:58,455, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:18:58] "GET /chapters HTTP/1.1" 200 -
+2018-05-05 18:21:12,491, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:21:15,160, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:21:16,799, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:21:16] "GET /chapters HTTP/1.1" 200 -
+2018-05-05 18:21:38,628, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:21:39,016, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:21:39] "GET / HTTP/1.1" 200 -
+2018-05-05 18:21:39,077, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:21:39] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2018-05-05 18:21:39,081, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:21:39] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 18:21:39,085, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:21:39] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2018-05-05 18:21:39,099, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:21:39] "GET /static/js/jquery.js HTTP/1.1" 200 -
+2018-05-05 18:21:39,107, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:21:39] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-05-05 18:21:39,111, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:21:39] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+2018-05-05 18:21:39,222, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:21:39] "GET /static/img/banner/banner_section.png HTTP/1.1" 200 -
+2018-05-05 18:21:39,237, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:21:39] "GET /static/img/banner/banner_home.png HTTP/1.1" 200 -
+2018-05-05 18:22:35,264, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-05 18:22:48,754, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:22:49,190, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:22:49] "GET / HTTP/1.1" 200 -
+2018-05-05 18:22:53,832, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:22:54,178, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:22:54] "GET / HTTP/1.1" 200 -
+2018-05-05 18:22:54,248, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:22:54] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2018-05-05 18:22:54,253, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:22:54] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 18:22:54,257, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:22:54] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2018-05-05 18:22:54,271, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:22:54] "GET /static/js/jquery.js HTTP/1.1" 200 -
+2018-05-05 18:22:54,278, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:22:54] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-05-05 18:22:54,283, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:22:54] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+2018-05-05 18:22:54,288, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:22:54] "GET /static/img/logos/logo3.png HTTP/1.1" 200 -
+2018-05-05 18:22:54,368, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:22:54] "GET /static/img/banner/banner_section.png HTTP/1.1" 200 -
+2018-05-05 18:22:54,379, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:22:54] "GET /static/img/banner/banner_home.png HTTP/1.1" 200 -
+2018-05-05 18:22:54,594, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:22:54] "GET /img/faviconit/favicon-32x32.png HTTP/1.1" 404 -
+2018-05-05 18:22:54,601, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:22:54] "GET /img/faviconit/favicon-16x16.png HTTP/1.1" 404 -
+2018-05-05 18:22:54,606, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:22:54] "GET /img/faviconit/favicon-96x96.png HTTP/1.1" 404 -
+2018-05-05 18:22:54,612, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:22:54] "GET /img/faviconit/android-icon-192x192.png HTTP/1.1" 404 -
+2018-05-05 18:23:12,100, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:23:12,435, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:23:12] "GET /about HTTP/1.1" 200 -
+2018-05-05 18:23:27,010, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:23:27,294, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:23:27] "GET / HTTP/1.1" 200 -
+2018-05-05 18:23:33,250, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:23:33,572, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:23:33] "GET /about HTTP/1.1" 200 -
+2018-05-05 18:23:49,059, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:23:49,493, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:23:49] "GET /donate HTTP/1.1" 200 -
+2018-05-05 18:24:57,463, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:24:57,713, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:24:57] "GET /about HTTP/1.1" 200 -
+2018-05-05 18:31:53,538, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-05 18:32:02,623, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:32:03,084, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:32:03] "GET / HTTP/1.1" 200 -
+2018-05-05 18:32:03,155, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:32:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2018-05-05 18:32:03,159, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:32:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 18:32:03,165, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:32:03] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2018-05-05 18:32:03,185, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:32:03] "GET /static/js/jquery.js HTTP/1.1" 200 -
+2018-05-05 18:32:03,195, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:32:03] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-05-05 18:32:03,203, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:32:03] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+2018-05-05 18:32:03,210, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:32:03] "GET /static/img/logos/logo3.png HTTP/1.1" 200 -
+2018-05-05 18:32:03,312, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:32:03] "GET /static/img/banner/banner_section.png HTTP/1.1" 200 -
+2018-05-05 18:32:03,332, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:32:03] "GET /static/img/banner/banner_home.png HTTP/1.1" 200 -
+2018-05-05 18:32:03,589, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:32:03] "GET /static/img/faviconit/favicon-32x32.png HTTP/1.1" 200 -
+2018-05-05 18:32:03,596, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:32:03] "GET /static/img/faviconit/favicon-16x16.png HTTP/1.1" 200 -
+2018-05-05 18:32:03,602, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:32:03] "GET /static/img/faviconit/favicon-96x96.png HTTP/1.1" 200 -
+2018-05-05 18:32:03,616, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:32:03] "GET /static/img/faviconit/favicon-192x192.png HTTP/1.1" 404 -
+2018-05-05 18:32:08,664, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:32:08,936, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:32:08] "GET /about HTTP/1.1" 200 -
+2018-05-05 18:46:22,538, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:46:22,855, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:22] "GET /about HTTP/1.1" 200 -
+2018-05-05 18:46:23,069, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:23] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2018-05-05 18:46:23,071, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:23] "GET /static/css/style.css HTTP/1.1" 304 -
+2018-05-05 18:46:23,073, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:23] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+2018-05-05 18:46:23,077, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:23] "GET /static/js/jquery.js HTTP/1.1" 304 -
+2018-05-05 18:46:23,087, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:23] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2018-05-05 18:46:23,104, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:23] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+2018-05-05 18:46:23,106, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:23] "GET /img/chapters/profiles/missing.png HTTP/1.1" 404 -
+2018-05-05 18:46:23,108, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:23] "GET /static/img/logos/logo3.png HTTP/1.1" 304 -
+2018-05-05 18:46:23,121, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:23] "GET /static/img/banner/banner_home.png HTTP/1.1" 304 -
+2018-05-05 18:46:23,314, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:23] "GET /static/img/faviconit/favicon-32x32.png HTTP/1.1" 304 -
+2018-05-05 18:46:23,320, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:23] "GET /static/img/faviconit/favicon-16x16.png HTTP/1.1" 304 -
+2018-05-05 18:46:23,326, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:23] "GET /static/img/faviconit/favicon-96x96.png HTTP/1.1" 304 -
+2018-05-05 18:46:37,049, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-05 18:46:50,726, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:46:51,053, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:51] "GET / HTTP/1.1" 200 -
+2018-05-05 18:46:51,113, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:51] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2018-05-05 18:46:51,118, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:51] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 18:46:51,125, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:51] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2018-05-05 18:46:51,139, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:51] "GET /static/js/jquery.js HTTP/1.1" 200 -
+2018-05-05 18:46:51,146, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:51] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-05-05 18:46:51,150, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:51] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+2018-05-05 18:46:51,154, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:51] "GET /static/img/logos/logo3.png HTTP/1.1" 200 -
+2018-05-05 18:46:51,241, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:51] "GET /static/img/banner/banner_section.png HTTP/1.1" 200 -
+2018-05-05 18:46:51,250, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:51] "GET /static/img/banner/banner_home.png HTTP/1.1" 200 -
+2018-05-05 18:46:51,558, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:51] "GET /static/img/faviconit/favicon-32x32.png HTTP/1.1" 200 -
+2018-05-05 18:46:51,563, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:51] "GET /static/img/faviconit/favicon-16x16.png HTTP/1.1" 200 -
+2018-05-05 18:46:51,575, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:51] "GET /static/img/faviconit/favicon-96x96.png HTTP/1.1" 200 -
+2018-05-05 18:46:54,226, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:46:54,476, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:54] "GET /about HTTP/1.1" 200 -
+2018-05-05 18:46:54,514, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:46:54] "GET /img/chapters/profiles/missing.png HTTP/1.1" 404 -
+2018-05-05 18:51:11,743, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:51:12,016, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:51:12] "GET /donate HTTP/1.1" 200 -
+2018-05-05 18:52:36,838, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:52:37,107, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:52:37] "GET / HTTP/1.1" 200 -
+2018-05-05 18:52:37,129, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:52:37] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2018-05-05 18:52:37,131, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:52:37] "GET /static/css/style.css HTTP/1.1" 304 -
+2018-05-05 18:52:37,134, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:52:37] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+2018-05-05 18:52:37,136, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:52:37] "GET /static/js/jquery.js HTTP/1.1" 304 -
+2018-05-05 18:52:37,139, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:52:37] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2018-05-05 18:52:37,144, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:52:37] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+2018-05-05 18:52:37,149, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:52:37] "GET /static/img/logos/logo3.png HTTP/1.1" 304 -
+2018-05-05 18:52:37,224, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:52:37] "GET /static/img/banner/banner_section.png HTTP/1.1" 304 -
+2018-05-05 18:52:37,234, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:52:37] "GET /static/img/banner/banner_home.png HTTP/1.1" 304 -
+2018-05-05 18:52:37,533, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:52:37] "GET /static/img/faviconit/favicon-32x32.png HTTP/1.1" 304 -
+2018-05-05 18:52:37,539, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:52:37] "GET /static/img/faviconit/favicon-16x16.png HTTP/1.1" 304 -
+2018-05-05 18:52:37,545, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:52:37] "GET /static/img/faviconit/favicon-96x96.png HTTP/1.1" 304 -
+2018-05-05 18:52:45,564, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:52:45] "GET /static/img/chapters/profiles/missing.png HTTP/1.1" 200 -
+2018-05-05 18:52:56,910, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-05 18:53:08,329, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:53:08,835, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:53:08] "GET / HTTP/1.1" 200 -
+2018-05-05 18:53:08,891, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:53:08] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2018-05-05 18:53:08,895, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:53:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 18:53:08,899, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:53:08] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2018-05-05 18:53:08,913, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:53:08] "GET /static/js/jquery.js HTTP/1.1" 200 -
+2018-05-05 18:53:08,920, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:53:08] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-05-05 18:53:08,924, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:53:08] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+2018-05-05 18:53:08,928, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:53:08] "GET /static/img/logos/logo3.png HTTP/1.1" 200 -
+2018-05-05 18:53:09,015, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:53:09] "GET /static/img/banner/banner_section.png HTTP/1.1" 200 -
+2018-05-05 18:53:09,024, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:53:09] "GET /static/img/banner/banner_home.png HTTP/1.1" 200 -
+2018-05-05 18:53:09,220, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:53:09] "GET /static/img/faviconit/favicon-32x32.png HTTP/1.1" 200 -
+2018-05-05 18:53:09,227, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:53:09] "GET /static/img/faviconit/favicon-16x16.png HTTP/1.1" 200 -
+2018-05-05 18:53:09,232, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:53:09] "GET /static/img/faviconit/favicon-96x96.png HTTP/1.1" 200 -
+2018-05-05 18:53:44,082, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:53:44,334, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:53:44] "GET /about HTTP/1.1" 200 -
+2018-05-05 18:53:44,371, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:53:44] "GET /img/chapters/profiles/missing.png HTTP/1.1" 404 -
+2018-05-05 18:54:01,006, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:54:01] "GET /img/chapters/profiles/missing.png HTTP/1.1" 404 -
+2018-05-05 18:54:57,940, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:54:57] "GET /img/chapters/seal/ohio-seal.png HTTP/1.1" 404 -
+2018-05-05 18:55:23,241, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:55:23] "GET /img/banner/banner_home.png HTTP/1.1" 404 -
+2018-05-05 18:55:47,818, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:55:48,020, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:55:48] "GET / HTTP/1.1" 200 -
+2018-05-05 18:56:20,550, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:56:20] "GET //img/banner/banner_section.png HTTP/1.1" 404 -
+2018-05-05 18:56:27,583, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:56:27] "GET /img/banner/banner_section.png HTTP/1.1" 404 -
+2018-05-05 18:56:53,872, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:56:54,153, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:56:54] "GET /about HTTP/1.1" 200 -
+2018-05-05 18:58:42,292, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:58:42,596, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:58:42] "GET /about HTTP/1.1" 200 -
+2018-05-05 18:58:42,628, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:58:42] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2018-05-05 18:58:42,631, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:58:42] "GET /static/css/style.css HTTP/1.1" 304 -
+2018-05-05 18:58:42,636, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:58:42] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+2018-05-05 18:58:42,640, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:58:42] "GET /static/js/jquery.js HTTP/1.1" 304 -
+2018-05-05 18:58:42,645, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:58:42] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2018-05-05 18:58:42,649, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:58:42] "GET /static/js/jquery.easing.min.js HTTP/1.1" 304 -
+2018-05-05 18:58:42,657, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:58:42] "GET /static/img/logos/logo3.png HTTP/1.1" 304 -
+2018-05-05 18:58:42,674, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:58:42] "GET /static/img/banner/banner_home.png HTTP/1.1" 304 -
+2018-05-05 18:58:42,973, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:58:42] "GET /static/img/faviconit/favicon-32x32.png HTTP/1.1" 304 -
+2018-05-05 18:58:42,982, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:58:42] "GET /static/img/faviconit/favicon-16x16.png HTTP/1.1" 304 -
+2018-05-05 18:58:42,987, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:58:42] "GET /static/img/faviconit/favicon-96x96.png HTTP/1.1" 304 -
+2018-05-05 18:58:44,390, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:58:45,317, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:58:45,904, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:58:45] "GET /chapters HTTP/1.1" 200 -
+2018-05-05 18:59:26,076, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 18:59:26,307, log_level=INFO, 127.0.0.1 - - [05/May/2018 18:59:26] "GET /about HTTP/1.1" 200 -
+2018-05-05 19:00:42,972, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 19:00:43,220, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:00:43] "GET /donate HTTP/1.1" 200 -
+2018-05-05 19:18:24,414, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 19:18:24,658, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:18:24] "GET / HTTP/1.1" 200 -
+2018-05-05 19:18:24,720, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:18:24] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2018-05-05 19:18:24,724, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:18:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 19:18:24,731, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:18:24] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2018-05-05 19:18:24,746, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:18:24] "GET /static/js/jquery.js HTTP/1.1" 200 -
+2018-05-05 19:18:24,754, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:18:24] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-05-05 19:18:24,759, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:18:24] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+2018-05-05 19:18:24,763, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:18:24] "GET /static/img/logos/logo3.png HTTP/1.1" 200 -
+2018-05-05 19:18:24,856, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:18:24] "GET /static/img/banner/banner_section.png HTTP/1.1" 200 -
+2018-05-05 19:18:24,873, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:18:24] "GET /static/img/banner/banner_home.png HTTP/1.1" 200 -
+2018-05-05 19:18:25,101, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:18:25] "GET /static/img/faviconit/favicon-32x32.png HTTP/1.1" 200 -
+2018-05-05 19:18:25,112, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:18:25] "GET /static/img/faviconit/favicon-16x16.png HTTP/1.1" 200 -
+2018-05-05 19:18:25,117, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:18:25] "GET /static/img/faviconit/favicon-96x96.png HTTP/1.1" 200 -
+2018-05-05 19:18:28,574, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 19:18:29,585, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 19:18:30,066, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:18:30] "GET /chapters HTTP/1.1" 200 -
+2018-05-05 19:18:30,117, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:18:30] "GET /img/chapters/seal/vanderbilt-seal.png HTTP/1.1" 404 -
+2018-05-05 19:21:15,790, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 19:21:16,809, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 19:21:17,311, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:21:17] "GET /chapters HTTP/1.1" 500 -
+2018-05-05 19:21:19,440, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 19:21:20,311, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 19:21:20,865, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:21:20] "GET /chapters HTTP/1.1" 500 -
+2018-05-05 19:21:28,619, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 19:21:29,368, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 19:21:29,920, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:21:29] "GET /chapters HTTP/1.1" 200 -
+2018-05-05 19:21:30,008, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:21:30] "GET /img/chapters/seal/vanderbilt-seal.png HTTP/1.1" 404 -
+2018-05-05 19:22:31,407, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 19:22:31,675, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:22:31] "GET / HTTP/1.1" 200 -
+2018-05-05 19:22:37,603, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 19:22:37,871, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:22:37] "GET /about HTTP/1.1" 200 -
+2018-05-05 19:42:51,059, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-05 19:42:55,406, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 19:42:55,683, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:42:55] "GET / HTTP/1.1" 200 -
+2018-05-05 19:42:55,716, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:42:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2018-05-05 19:42:55,721, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:42:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-05 19:42:55,726, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:42:55] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2018-05-05 19:42:55,740, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:42:55] "GET /static/js/jquery.js HTTP/1.1" 200 -
+2018-05-05 19:42:55,747, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:42:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-05-05 19:42:55,751, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:42:55] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+2018-05-05 19:42:55,757, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:42:55] "GET /static/img/logos/logo3.png HTTP/1.1" 200 -
+2018-05-05 19:42:55,893, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:42:55] "GET /static/img/banner/banner_section.png HTTP/1.1" 200 -
+2018-05-05 19:42:55,904, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:42:55] "GET /static/img/banner/banner_home.png HTTP/1.1" 200 -
+2018-05-05 19:42:56,184, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:42:56] "GET /static/img/faviconit/favicon-32x32.png HTTP/1.1" 200 -
+2018-05-05 19:42:56,191, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:42:56] "GET /static/img/faviconit/favicon-16x16.png HTTP/1.1" 200 -
+2018-05-05 19:42:56,196, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:42:56] "GET /static/img/faviconit/favicon-96x96.png HTTP/1.1" 200 -
+2018-05-05 19:43:00,025, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 19:43:01,040, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-05 19:43:01,548, log_level=INFO, 127.0.0.1 - - [05/May/2018 19:43:01] "GET /chapters HTTP/1.1" 200 -
+2018-05-20 13:03:54,449, log_level=INFO,  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-05-20 13:04:06,706, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-20 13:04:06,963, log_level=INFO, 127.0.0.1 - - [20/May/2018 13:04:06] "GET / HTTP/1.1" 200 -
+2018-05-20 13:04:07,021, log_level=INFO, 127.0.0.1 - - [20/May/2018 13:04:07] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2018-05-20 13:04:07,026, log_level=INFO, 127.0.0.1 - - [20/May/2018 13:04:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2018-05-20 13:04:07,031, log_level=INFO, 127.0.0.1 - - [20/May/2018 13:04:07] "GET /static/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 -
+2018-05-20 13:04:07,045, log_level=INFO, 127.0.0.1 - - [20/May/2018 13:04:07] "GET /static/js/jquery.js HTTP/1.1" 200 -
+2018-05-20 13:04:07,053, log_level=INFO, 127.0.0.1 - - [20/May/2018 13:04:07] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-05-20 13:04:07,057, log_level=INFO, 127.0.0.1 - - [20/May/2018 13:04:07] "GET /static/js/jquery.easing.min.js HTTP/1.1" 200 -
+2018-05-20 13:04:07,063, log_level=INFO, 127.0.0.1 - - [20/May/2018 13:04:07] "GET /static/img/logos/logo3.png HTTP/1.1" 200 -
+2018-05-20 13:04:07,132, log_level=INFO, 127.0.0.1 - - [20/May/2018 13:04:07] "GET /static/img/banner/banner_section.png HTTP/1.1" 200 -
+2018-05-20 13:04:07,144, log_level=INFO, 127.0.0.1 - - [20/May/2018 13:04:07] "GET /static/img/banner/banner_home.png HTTP/1.1" 200 -
+2018-05-20 13:04:07,356, log_level=INFO, 127.0.0.1 - - [20/May/2018 13:04:07] "GET /static/img/faviconit/favicon-32x32.png HTTP/1.1" 200 -
+2018-05-20 13:04:07,366, log_level=INFO, 127.0.0.1 - - [20/May/2018 13:04:07] "GET /static/img/faviconit/favicon-16x16.png HTTP/1.1" 200 -
+2018-05-20 13:04:07,372, log_level=INFO, 127.0.0.1 - - [20/May/2018 13:04:07] "GET /static/img/faviconit/favicon-96x96.png HTTP/1.1" 200 -
+2018-05-20 13:04:07,387, log_level=INFO, 127.0.0.1 - - [20/May/2018 13:04:07] "GET /static/img/faviconit/favicon-192x192.png HTTP/1.1" 404 -
+2018-05-20 13:04:12,097, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-20 13:04:13,189, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-20 13:04:13,688, log_level=INFO, 127.0.0.1 - - [20/May/2018 13:04:13] "GET /chapters HTTP/1.1" 200 -
+2018-05-20 13:04:20,704, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-20 13:04:20,965, log_level=INFO, 127.0.0.1 - - [20/May/2018 13:04:20] "GET /about HTTP/1.1" 200 -
+2018-05-20 13:04:29,929, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-20 13:04:30,672, log_level=ERROR, Exception possibly due to cache backend.
+Traceback (most recent call last):
+  File "//anaconda/lib/python2.7/site-packages/flask_cache/__init__.py", line 300, in decorated_function
+    timeout=decorated_function.cache_timeout)
+  File "//anaconda/lib/python2.7/site-packages/werkzeug/contrib/cache.py", line 317, in set
+    pickle.HIGHEST_PROTOCOL))
+TypeError: can't pickle generator objects
+2018-05-20 13:04:31,138, log_level=INFO, 127.0.0.1 - - [20/May/2018 13:04:31] "GET /chapters HTTP/1.1" 200 -
