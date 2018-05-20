@@ -50,6 +50,10 @@ def about():
 	nat_mem=get_board_members()
 	return render_template("about.html", title="About", board=nat_mem)
 
+@app.route('/projects')
+def projects():
+	return render_template("projects.html", title="Projects")
+
 @app.route('/chapters')
 def chapters():
 	chap=get_appfeed()
