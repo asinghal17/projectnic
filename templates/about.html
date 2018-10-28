@@ -20,43 +20,41 @@
 
     {% block section %}
     <section class="container content-section text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 style="color:#5d5d5d">Our Mission</h3>
-                    <br>
-                    <p style="color:#5d5d5d"><strong>Bringing quality healthcare to the people of Nicaragua.</strong></p>
-                    <br>
-                    <h3 style="color:#5d5d5d">About Us</h3>
-                    <br>
-                    <p style="color:#5d5d5d">Project Nicaragua partners with organizations, communities, and individuals in both Nicaragua and the United States to advocate and cultivate sustainable medical and health­-related projects in areas of nutrition, socioeconomic development, water quality, and education. We engage communities through ongoing dialogue and collaboration to understand local challenges and create realistic solutions. We are committed to using an evidence­-based approach to develop our projects and measure our progress to best serve the needs of Nicaragua’s underserved. By engaging students at both the undergraduate and graduate level, Project Nicaragua creates and empowers teams of passionate leaders to make a meaningful difference.</p>
-                    <br>
-                    <br>
-                </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h3 style="color:#5d5d5d">Our Mission</h3>
+                <br>
+                <p style="color:#5d5d5d"><strong>Bringing quality healthcare to the people of Nicaragua.</strong></p>
+                <br>
+                <h3 style="color:#5d5d5d">About Us</h3>
+                <br>
+                <p style="color:#5d5d5d">Project Nicaragua partners with organizations, communities, and individuals in both Nicaragua and the United States to advocate and cultivate sustainable medical and health­-related projects in areas of nutrition, socioeconomic development, water quality, and education. We engage communities through ongoing dialogue and collaboration to understand local challenges and create realistic solutions. We are committed to using an evidence­-based approach to develop our projects and measure our progress to best serve the needs of Nicaragua’s underserved. By engaging students at both the undergraduate and graduate level, Project Nicaragua creates and empowers teams of passionate leaders to make a meaningful difference.</p>
+                <br>
+                <br>
             </div>
-            <hr>
-            <!-- OUR TEAM -->
-            <div class="row">
-                <div align="middle" class="col-md-12">
-                    <h3 style="color:#5d5d5d">Executive Board</h3>
-                    <br>
-                    <!-- <p style="color:#5d5d5d">Our National Team consists of entrepreneurs, educators, business leaders, developers, students, and more who believe deeply in the power of innovation and initiative to improve social and health conditions in rural India.</p> -->
-                    <br>
-                </div>
+        </div>
+        <hr>
+        <!-- OUR TEAM -->
+        <div class="row">
+            <div align="middle" class="col-md-12">
+                <h3 style="color:#5d5d5d">Executive Board</h3>
+                <br>
+                <!-- <p style="color:#5d5d5d">Our National Team consists of entrepreneurs, educators, business leaders, developers, students, and more who believe deeply in the power of innovation and initiative to improve social and health conditions in rural India.</p> -->
+                <br>
             </div>
-            <div class="row">
-                {% for n in board %}
-                <div class="col-md-3">
-                    <div class="portfolio-item">
-                        <img align="middle" class="img-portfolio img-circle" height="165" width="165" src="{{ n.photo }}">
-                    </div>
-                    <h5 style="color:#5d5d5d">{{ n.name }}</h5>
-                    <p style="color:#5d5d5d">{{ n.position }}<br><a href="mailto:{{ n.email }}"><font color="#21A54A">{{ n.email }}</font></a>
-                    </p>
+        </div>
+        <div class="row">
+            {% for n in board %}
+            <div class="col-md-3">
+                <div class="portfolio-item">
+                    <img align="middle" class="img-portfolio img-circle" height="165" width="165" src="{{ n.photo }}">
                 </div>
-                {% endfor %}
+                <h5 style="color:#5d5d5d">{{ n.name }}</h5>
+                <p style="color:#5d5d5d">{{ n.position }}<br><a href="mailto:{{ n.email }}"><font color="#21A54A">{{ n.email }}</font></a>
+                </p>
             </div>
-            <hr>
-        <div>
+            {% endfor %}
+        </div>
+        <hr>
     </section>
     {% endblock %}
