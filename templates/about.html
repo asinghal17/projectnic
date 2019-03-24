@@ -47,7 +47,7 @@
             {% for n in board %}
             <div class="col-md-3">
                 <div class="portfolio-item">
-                    <img align="middle" class="img-portfolio img-circle" height="165" width="165" src="{{ n.photo }}">
+                    <img align="middle" data-toggle="modal" data-target="{{ n.hashtag }}" class="img-portfolio img-circle" height="165" width="165" src="{{ n.photo }}">
                 </div>
                 <h5 style="color:#5d5d5d">{{ n.name }}</h5>
                 <p style="color:#5d5d5d">{{ n.position }}<br><a href="mailto:{{ n.email }}"><font color="#21A54A">{{ n.email }}</font></a>
@@ -57,4 +57,166 @@
         </div>
         <hr>
     </section>
+
+    <!-- Ravi Modal -->
+    <div id="ravi" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content - Ravi -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 style="color:#4A4A4A" class="modal-title">Ravi Menghani</h4>
+                </div>
+                <div style="color:#4A4A4A" class="modal-body container-fluid text-center">
+                    <img class="img-portfolio img-circle" height="165" width="165" src="https://github.com/asinghal17/projectnic/blob/master/static/img/profiles/ravi_menghani.png?raw=true">
+                    <p style="color:#4A4A4A">Ravi Menghani, MD MBA is an ophthalmologist, husband, and proud father of two sons. He has a private practice in comprehensive ophthalmology in Long Beach, California.  He completed his undergraduate, medical school, and MBA training at UCLA and his residency at Gavin Herbert Eye Institute, UC Irvine. While in medical school, he co-founded two not-for-profit organizations to help the needy in Nicaragua and India.  In his spare time, he loves trying new restaurants, spending time with his wife and kids in the park, and listening to Pandora.
+                    <br>Contact: <a href="mailto:rmenghani@projectnic.org"><font color="#21A54A"><strong>rmenghani@projectnic.org</strong></font></a></p>
+                </div>
+                <!-- Modal Body End -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Ravi Modal End -->
+
+    <!-- Stanley Modal -->
+    <div id="stanley" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content - Stanley -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 style="color:#4A4A4A" class="modal-title">Stanley Park</h4>
+                </div>
+                <div style="color:#4A4A4A" class="modal-body container-fluid text-center">
+                    <img class="img-portfolio img-circle" height="165" width="165" src="https://github.com/asinghal17/projectnic/blob/master/static/img/profiles/stanley_park.png?raw=true">
+                    <p style="color:#4A4A4A">Stanley Park, MD is an ophthalmologist with a background in uveitis and vitreoretinal surgery. He completed his residency at Ohio State University, his uveitis fellowship at Bascom Palmer Eye Institute and currently resides in Oklahoma City completing his vitreoretinal fellowship at the Dean McGee Eye Institute. He is a former HHMI fellow and has published and spoken on age related macular degeneration and von-Hippel Lindau associated hemangioblastomas. He enjoys swimming, reading and spending time with his loved ones.
+                    <br>Contact: <a href="mailto:spark@projectnic.org"><font color="#21A54A"><strong>spark@projectnic.org</strong></font></a></p>
+                </div>
+                <!-- Modal Body End -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Stanley Modal End -->
+
+    <!-- Samuel Modal -->
+    <div id="samchoi" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content - Stanley -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 style="color:#4A4A4A" class="modal-title">Samuel Choi</h4>
+                </div>
+                <div style="color:#4A4A4A" class="modal-body container-fluid text-center">
+                    <img class="img-portfolio img-circle" height="165" width="165" src="https://github.com/asinghal17/projectnic/blob/master/static/img/profiles/sam_choi.png?raw=true">
+                    <p style="color:#4A4A4A">Samuel Choi is currently training as a resident in the Internal Medicine-Primary Care program at Yale. He has been one of the original members and chapter leaders of Project Nicaragua at UCLA. His passions include health equity research and community engagement activities. His interests include woodworking, hiking, and playing the guitar.
+                    <br>Contact: <a href="mailto:schoi@projectnic.org"><font color="#21A54A"><strong>schoi@projectnic.org</strong></font></a></p>
+                </div>
+                <!-- Modal Body End -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Samuel Modal End -->
+
+    <!-- John Scheick Modal -->
+    <div id="john" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content - John Scheick -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 style="color:#4A4A4A" class="modal-title">John Scheick</h4>
+                </div>
+                <div style="color:#4A4A4A" class="modal-body container-fluid text-center">
+                    <img class="img-portfolio img-circle" height="165" width="165" src="https://github.com/asinghal17/projectnic/blob/master/static/img/profiles/john_scheick.png?raw=true">
+                    <p style="color:#4A4A4A">John Scheick is completed his undergraduate degree in mechanical engineering and is currently working for Byton developing the occupant restraint system. He is a former member and treasurer of the OSU chapter of Project Nicaragua. His passions include improving the quality of life through empowerment and education. In his free time he enjoys hiking, exploring new foods and autocross.
+                    <br>Contact: <a href="mailto:jscheick@projectnic.org"><font color="#21A54A"><strong>jscheick@projectnic.org</strong></font></a></p>
+                </div>
+                <!-- Modal Body End -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- John Scheick Modal End -->
+
+    <!-- Samarchitha Magal Modal -->
+    <div id="samarchitha" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content - Samarchitha Magal -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 style="color:#4A4A4A" class="modal-title">Samarchitha Magal</h4>
+                </div>
+                <div style="color:#4A4A4A" class="modal-body container-fluid text-center">
+                    <img class="img-portfolio img-circle" height="165" width="165" src="https://github.com/asinghal17/projectnic/blob/master/static/img/profiles/samarchitha_magal.png?raw=true">
+                    <p style="color:#4A4A4A">Samarchitha Magal completed her undergraduate degree in Neuroscience at The Ohio State University, and is currently a medical student at the University of Toledo College of Medicine and Life Sciences. She is an active member of the American Medical Association Medical Student Section and is passionate about improving healthcare policy and the integration of public health and medicine. Her interests include reading, cooking, and watching OSU football.
+                    <br>Contact: <a href="mailto:smagal@projectnic.org"><font color="#21A54A"><strong>smagal@projectnic.org</strong></font></a></p>
+                </div>
+                <!-- Modal Body End -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Samarchitha Magal Modal End -->
+
+    <!-- Samantha Alonso Modal -->
+    <div id="samantha" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content - Samantha Alonso -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 style="color:#4A4A4A" class="modal-title">Samantha Alonso</h4>
+                </div>
+                <div style="color:#4A4A4A" class="modal-body container-fluid text-center">
+                    <img class="img-portfolio img-circle" height="165" width="165" src="https://github.com/asinghal17/projectnic/blob/master/static/img/profiles/samantha_alonso.png?raw=true">
+                    <p style="color:#4A4A4A">Samantha Alonso completed her undergraduate degree in International Business at The Ohio State University. She is currently taking part in the North American Language and Culture Assistant Program for the Spanish Ministry of Education, Culture, and Sport on the beautiful island of Menorca. Her favorite things in life include reading, Cleveland sports, and food trucks.
+                    <br>Contact: <a href="mailto:salonso@projectnic.org"><font color="#21A54A"><strong>salonso@projectnic.org</strong></font></a></p>
+                </div>
+                <!-- Modal Body End -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Samantha Alonso Modal End -->
+
+    <!-- Mikafui Dzotsi Modal -->
+    <div id="mikafui" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content - Mikafui Dzotsi -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 style="color:#4A4A4A" class="modal-title">Mikafui Dzotsi</h4>
+                </div>
+                <div style="color:#4A4A4A" class="modal-body container-fluid text-center">
+                    <img class="img-portfolio img-circle" height="165" width="165" src="https://github.com/asinghal17/projectnic/blob/master/static/img/profiles/mikafui_dzotsi.png?raw=true">
+                    <p style="color:#4A4A4A">Mikafui Dzotsi is a recent graduate of The Ohio State University with a Bachelor’s of Science in Public Health and minors in Chinese and Biology. Her passion is epidemiology, by means of which she believes she can make a significant contribution to the implementation of good health interventions, alleviating some of the worst aspects of poverty worldwide. She hopes to pursue her masters in public health and acquire her medical degree with a focus in preventative medicine. In her free time she loves discovering new brunch places, playing piano, singing, dancing, and trying new sports.
+                    <br>Contact: <a href="mailto:mdzotsi@projectnic.org"><font color="#21A54A"><strong>mdzotsi@projectnic.org</strong></font></a></p>
+                </div>
+                <!-- Modal Body End -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Mikafui Dzotsi Modal End -->
+
     {% endblock %}
