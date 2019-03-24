@@ -41,6 +41,13 @@ def getPhoto(dic):
 	"""
 	return str(dic["content"]["$t"]).split(',')[2].split(' ')[2].strip()
 
+def getMemHash(dic):
+	"""Returns the Link for Photo.
+
+	dic -- Dictionary from the JSON with all values.
+	"""
+	return str(dic["content"]["$t"]).split(',')[3].split(' ')[2].strip()
+
 def getDueDate(dic):
 	"""Return the Due Date for Chapter Applications.
 
@@ -146,6 +153,7 @@ def getMemberFeed(key):
 	"""
 	if key:
 		feed=getFeedList(key)
-		return ({"name":getTitle(dic),"email": getEmail(dic),"position":getPosition(dic),"photo": getPhoto(dic)} for dic in feed)
+		return ({"name":getTitle(dic),"email": getEmail(dic),"position":getPosition(dic),"photo": getPhoto(dic),"hashtag":getMemHash(dic)} for dic in feed)
 	else:
 		return ({"name":"","email":"","position":"","photo": ""}) 
+
